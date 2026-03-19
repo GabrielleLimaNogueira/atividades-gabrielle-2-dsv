@@ -1,0 +1,31 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+background-color: brown;
+
+}
+/* display block ( padrão )*/
+.pai{
+    width: 80%;
+    padding: 20px;
+    background-color: bisque;
+    display: flex;
+    /* row linha*/
+    /*column coluna*/
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* start - esquerda */
+    /*end - direita*/
+    /*center -  centro*/
+    /*sapce-between/ around -  separar centralizado*/
+}
+.filho{
+padding: 30px;
+margin: 10px 0px;
+background-color: rgb(255, 255, 255);
+}
