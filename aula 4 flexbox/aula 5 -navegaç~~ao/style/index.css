@@ -1,0 +1,41 @@
+*{
+padding: 0%;
+margin: 0%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+ width: 100%;
+ padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray ;
+}
+header aside{
+    width: 50%;
+padding: 5px 0px;
+display: flex;
+gap: 15px;
+align-items: center;
+}
+#headerDireito{
+    justify-content: end;
+} main{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#banner{
+width: 70%;
+height: 1000px;
+margin: 30px 0px;
+background-image: url('../imagens/gato.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.p{
+    background-color: brown;
+}
