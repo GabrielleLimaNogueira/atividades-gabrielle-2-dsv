@@ -39,3 +39,11 @@ background-position: center;
 .p{
     background-color: brown;
 }
+#banner2{
+    width: 70%;
+height: 700px;
+margin: 30 px 0 px;
+background-image: url('/imagens/𝚃𝚘𝚖\ 𝚊𝚗𝚍\ 𝙹𝚎𝚛𝚛𝚢.jpg');
+background-repeat: no-repeat;
+
+}
