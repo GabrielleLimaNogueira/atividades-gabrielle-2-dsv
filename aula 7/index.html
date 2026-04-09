@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <form action="#">
+        <h1>FORMULARIO FODA</h1>
+        <!-- INPUT NOME  -->
+        <div class="formAssunto">
+            <label for="Nome">Nome : </label>
+            <input id="Nome" required type="text" placeholder="Ponha Seu Nome Aqui">
+        </div>
+        <!-- INPUT EMAIL -->
+        <div class="formAssunto">
+            <label for="Email">Email</label>
+            <input id="Email" type="email" placeholder="Exemplo @Gmail.com">
+        </div>
+        </div>
+        <!-- INPUT COR -->
+        <div class="formAssunto">
+            <label for="Cor">Email</label>
+            <input id="Cor" type="Color">
+        </div>
+        </div>
+        <!-- INPUT IDADE -->
+        <div class="formAssunto">
+            <label for="Idade">idade : </label>
+            <input id="Idade" type="number" min="0" max="200" step="1">
+        </div>
+        <!-- select estado -->
+        <Select name="estado" id="estado">
+            <option value=""> - </option>
+            <option value="SP">Sao Paulo</option>
+            <option value="DF">Distrito Federal</option>
+        </Select>
+        <!-- ENVIAR -->
+        <!-- <input type="button" valeu="ENVIAR"> -->
+        <button type="submit">ENVIAR </button>
+        <button type="reset"> RESETAR </button>
+        <button type="button" id="bemvindo">NOME</button>
+    </form>
+</body>
+<script>
+    document.getElementById("bemvindo").addEventListener("click", () => { 
+        NOME = DOCUMENT.getElementById(nome).value 
+        alert("Seja bem Vindo(a))")
+    })
+</script>
+
+</html>
