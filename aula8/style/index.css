@@ -1,0 +1,21 @@
+
+@font-face {
+   font-family: Tropi_Land ;
+   font-weight: normal;
+    src: url('../FONTS/Mainstay.otf');
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --fontPrimaria : Tropi_Land ;
+    --fontSecundária : Mainstay.otf ;
+
+}
+h1{
+    font-family: var(--fontPrimaria);
+}
+p{
+    font-family: "Roboto";
+}
